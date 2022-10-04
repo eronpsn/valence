@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Valence.WebApp</title>
+    <link rel="stylesheet" href="~/login/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="~/login/icheck-bootstrap/icheck-bootstrap.min.css" />
+    <link rel="stylesheet" href="~/login/css/adminlte.min.css" />
+
+        <!-- PNotify -->
+    <link href="~/vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+            @RenderBody()
+    </div>
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/login/js/adminlte.min.js"></script>
+
+        <!-- PNotify -->
+    <script src="~/vendors/pnotify/dist/pnotify.js"></script>
+    <script src="~/vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="~/vendors/pnotify/dist/pnotify.nonblock.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
