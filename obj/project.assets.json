@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
         "type": "package",
         "compile": {
@@ -1047,7 +1047,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Session >= 2.2.0",
       "RestSharp >= 106.13.0"
     ]
@@ -1058,26 +1058,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace.app\\Valence\\Valence.WebApp\\Valence.WebApp.csproj",
+      "projectUniqueName": "D:\\valence\\Valence.WebApp.csproj",
       "projectName": "Valence.WebApp",
-      "projectPath": "C:\\Workspace.app\\Valence\\Valence.WebApp\\Valence.WebApp.csproj",
+      "projectPath": "D:\\valence\\Valence.WebApp.csproj",
       "packagesPath": "C:\\Users\\eronildes_pereira\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace.app\\Valence\\Valence.WebApp\\obj\\",
+      "outputPath": "D:\\valence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eronildes_pereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1088,8 +1088,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Session": {
             "target": "Package",
@@ -1110,12 +1110,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
